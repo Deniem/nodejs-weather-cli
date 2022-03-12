@@ -1,0 +1,29 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "os": ["linux"],
+  "funding": "fund.me",
+  "man": ["./readme.md"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Deniem",
+  "license": "ISC",
+  "homepage": "https://github.com/Deniem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deniem"
+  },
+  "bugs": {
+    "url": "https://github.com/Deniem",
+    "email": "kondrakov.denis@gmail.com"
+  }
+}
