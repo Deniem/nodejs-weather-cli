@@ -27,10 +27,10 @@
   "homepage": "https://github.com/Deniem",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Deniem"
+    "url": "https://github.com/Deniem/nodejs-weather-cli"
   },
   "bugs": {
-    "url": "https://github.com/Deniem",
+    "url": "https://github.com/Deniem/nodejs-weather-cli",
     "email": "kondrakov.denis@gmail.com"
   },
   "dependencies": {
