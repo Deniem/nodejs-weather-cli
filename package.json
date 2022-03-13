@@ -1,12 +1,19 @@
 {
-  "name": "weather-cli",
+  "name": "deniem-weather",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
-  "os": ["linux"],
+  "main": "weater.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "os": [
+    "linux"
+  ],
   "funding": "fund.me",
-  "man": ["./readme.md"],
+  "man": [
+    "./readme.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -25,5 +32,10 @@
   "bugs": {
     "url": "https://github.com/Deniem",
     "email": "kondrakov.denis@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
   }
 }
